@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+input {
+  margin-top: -15px;
+}
