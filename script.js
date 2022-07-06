@@ -8,6 +8,10 @@ for (let checkbox of checkboxes) {
         const lastBox = finito.pop();
         lastBox.checked = false;
       }
+      finito.push(checkbox);
+    } else {
+      const index = finito.indexOf(checkbox);
+      finito, splice(index, 1);
     }
   });
 }
